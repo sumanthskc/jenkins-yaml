@@ -3,7 +3,7 @@ pipeline:
   stages:
     - stage: Build
       steps:
-        - echo "Build executed Successfully"
+        - echo "Build not executed Successfully"
     - stage: Test
       steps:
         - echo "Tested Software Successfully"
